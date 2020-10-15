@@ -1,5 +1,5 @@
 {
-  "name": "ngx-signature-pad",
+  "name": "@williamsrivas/ngx-signature-pad",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
