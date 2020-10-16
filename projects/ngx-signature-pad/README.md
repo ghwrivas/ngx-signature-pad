@@ -40,25 +40,16 @@ import { SignaturePadOptions } from 'ngx-signature-pad';
 
 @Component({
   selector: 'app-root',
-  templateUrl: `<div style="border:1px solid red" [style.width]="width+'px'" [style.height]="height+'px'">
-
-  <ngx-signature-pad #signaturePad [options]="options" [width]="width" [height]="height"></ngx-signature-pad>
-
-</div>
-
-<input type="button" value="Clear" (click)="clear()" />
-
-<input type="button" value="Check Empty" (click)="isEmpty()" />
-
-<input type="button" value="Save png" (click)="savePng()" />
-
-<input type="button" value="Save jpg" (click)="saveJpg()" />
-
-<input type="button" value="Save svg" (click)="saveSvg()" />
-
-<input type="button" value="Save array" (click)="saveArray()" />
-
-<input type="button" value="Change draw style" (click)="changeOptions()" />`,
+  template: `<div style="border:1px solid red" [style.width]="width+'px'" [style.height]="height+'px'">
+               <ngx-signature-pad #signaturePad [options]="options" [width]="width" [height]="height"></ngx-signature-pad>
+             </div>
+             <input type="button" value="Clear" (click)="clear()" />
+             <input type="button" value="Check Empty" (click)="isEmpty()" />
+             <input type="button" value="Save png" (click)="savePng()" />
+             <input type="button" value="Save jpg" (click)="saveJpg()" />
+             <input type="button" value="Save svg" (click)="saveSvg()" />
+             <input type="button" value="Save array" (click)="saveArray()" />
+             <input type="button" value="Change draw style" (click)="changeOptions()" />`,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
