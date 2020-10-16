@@ -1,8 +1,20 @@
 {
   "name": "@williamsrivas/ngx-signature-pad",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghwrivas/ngx-signature-pad.git"
+  },
+  "homepage": "https://github.com/ghwrivas/ngx-signature-pad/tree/master/projects/ngx-signature-pad#readme",
+  "keywords": [
+    "signature",
+    "sign",
+    "finger",
+    "canvas",
+    "angular"
+  ]
 }
